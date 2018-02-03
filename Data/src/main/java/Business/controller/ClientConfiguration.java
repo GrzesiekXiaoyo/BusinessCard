@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ClientConfiguration
 {
 	@GetMapping
-	@RequestMapping("hello")
+	@RequestMapping("/hello")
 	public String GetClientConfiguration()
 	{
 		return "Hello";
